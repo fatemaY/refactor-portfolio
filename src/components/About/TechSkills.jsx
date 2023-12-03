@@ -11,8 +11,6 @@ import {
 } from 'react-icons/di';
 import {
   SiTypescript,
-  SiRedux,
-  SiSocketdotio,
   SiAmazonaws,
 } from 'react-icons/si';
 import { useState } from 'react';
