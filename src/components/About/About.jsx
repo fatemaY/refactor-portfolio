@@ -10,7 +10,7 @@ export default function About() {
             <div className="about-me">
               <h1 className="title1"> Who <b className="purple"> I am</b></h1>
               <img className="profile-pic" src={profilepic} alt="profile picture" />
-                <p>
+                <p className="whoIam">
                 Hi, I am Fatema,
                 self-driven, passionate learner and developer focusing on Html, React, Javascript, Node,
                 and Java Technologies. Looking forward to working with ingenious teams on challenging 
