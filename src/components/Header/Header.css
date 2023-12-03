@@ -77,9 +77,14 @@ menu li button:hover {
 
 
 @media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+   
     menu li button {
         width: 100%; /* Adjusted width for responsiveness */
         margin-left: 0; /* Removed margin-right for responsiveness */
-        font-size: auto;
+        font-size: small;
+
     }
 }

@@ -15,8 +15,8 @@
   }
 .follow{
     margin-top: 100px;
-    margin-left: 500px;
-    font-size: 48px;
+    margin-left: 600px;
+    font-size: 50px;
     
 }
 .icon{
@@ -28,7 +28,11 @@
     box-shadow: 0 0 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
+    .follow{
+        margin-left: 20px;
+
+    }
     .social {
         flex-direction: column;
         gap: 16px;

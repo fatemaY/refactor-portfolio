@@ -7,7 +7,7 @@ import { TiSocialTwitter } from "react-icons/ti";
 export default function Social() {
     return (
         <section>
-        <h1 className="follow">Follow <b className="purple">Me..</b></h1>
+        <h1 className="follow" >Follow <b className="purple">Me..</b></h1>
         <section className="social" id="social">
             <a href="https://github.com/fatemaY" target="_blank">
                 <SiGithub className="icon" />

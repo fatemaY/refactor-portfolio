@@ -78,6 +78,14 @@ main h1 {
     text-align: center;
     font-size: 18px;
     color: white;
+    background-color: rgb(182, 76, 138);
+
+
+}
+.visit:hover{
+    background-color: #f5f4f4;
+    color: #460c26;
+
 
 }
 
