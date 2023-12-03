@@ -1,0 +1,36 @@
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh) !important;
+    font-size: 1vmax;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.purple{
+    color: #460c26;
+
+  }
+.follow{
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 48px;
+    
+}
+.icon{
+    width: 100px;
+    height: 200px;
+    color: white;
+}
+.icon:hover{
+    box-shadow: 0 0 5px;
+}
+
+@media (max-width: 800px) {
+    .social {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
